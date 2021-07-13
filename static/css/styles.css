@@ -1,0 +1,10 @@
+iframe {
+    width: 3em;
+    height: 2.5em;
+    background-color: aliceblue;
+    margin-right: 1em;
+    border: none;
+}
+div {
+    margin-bottom: 2em;
+}
