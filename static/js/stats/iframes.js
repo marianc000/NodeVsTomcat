@@ -1,3 +1,4 @@
+//iframes.js
 function addHtml(html) {
     document.body.insertAdjacentHTML('beforeend', html);
 }
@@ -17,7 +18,6 @@ function waitForMessage(params) {
 }
 
 function addAverage({ durations }, indexFile) {
-    console.log(">addAverage", durations);
     const average = Math.round(durations.reduce((a, b) => a + b, 0) / durations.length);
     addHtml(`<div>${indexFile} - ${average} ms</div>`);
 }
